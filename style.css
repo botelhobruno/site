@@ -1,0 +1,26 @@
+body{
+  background-color: antiquewhite;
+}
+h1{
+  border: solid 3px blueviolet;
+  border-radius: 20px;
+  text-align: center;
+  font-size: x-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: blueviolet;
+}
+.sobre{
+    position: relative;
+    background-origin: padding-box;
+}
+.bt {
+  color: blueviolet;
+  background-color: pink;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 10%;
+  height: 5%;
+  margin-top: 530px;
+  border-radius: 3px;
+    }
