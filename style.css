@@ -33,13 +33,4 @@ body{
   border-radius: 3px;
   font-weight: bold;
     }
-    .content {
-      display: none;
-    }
-    .content.show {
-      display: flex
-    }
-    .content-img {
-      width: 50%;
-      height: 250px;
-    }
+    
