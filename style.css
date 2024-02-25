@@ -1,19 +1,28 @@
 body{
+  padding: 1%;
   background-color: antiquewhite;
 }
-h1{
-  border: solid 3px blueviolet;
+#head {
+  border: solid 5px blueviolet;
   border-radius: 20px;
   text-align: center;
-  font-size: x-large;
+ padding: 10px;
+ margin-left: 40%;
+ margin-right: 40%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: blueviolet;
+  background-color: thistle;
 }
 .sobre{
-    position: relative;
-    background-origin: padding-box;
+  border: 5px blueviolet solid;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 380px;
+  margin-right: 70%;
+  margin-bottom: auto;
 }
 .bt {
+  position: relative;
   color: blueviolet;
   background-color: pink;
   margin-left: auto;
@@ -21,6 +30,16 @@ h1{
   display: block;
   width: 10%;
   height: 5%;
-  margin-top: 530px;
   border-radius: 3px;
+  font-weight: bold;
+    }
+    .content {
+      display: none;
+    }
+    .content.show {
+      display: flex
+    }
+    .content-img {
+      width: 50%;
+      height: 250px;
     }
